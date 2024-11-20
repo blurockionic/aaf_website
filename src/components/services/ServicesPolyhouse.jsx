@@ -1,5 +1,5 @@
-import Polyhouse from "@assets/Explore2.png";
-import Logo from '@assets/Logo.png';
+import Polyhouse from "/assets/Explore2.png";
+import Logo from '/assets/Logo.png';
 
 const ServicesPolyhouse = () => {
   return (

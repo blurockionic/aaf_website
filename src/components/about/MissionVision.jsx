@@ -1,6 +1,6 @@
 
-import img7 from "@assets/target.png";
-import img8 from "@assets/targeticon.png"; // Import the Image component from Next.js
+import img7 from "/assets/target.png";
+import img8 from "/assets/targeticon.png"; // Import the Image component from Next.js
 
 const MissionVision = () => {
   return (

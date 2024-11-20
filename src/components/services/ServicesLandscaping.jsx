@@ -1,5 +1,5 @@
-import Landscaping from '@assets/Landscaping.png';
-import Logo from '@assets/Logo.png';
+import Landscaping from '/assets/Landscaping.png';
+import Logo from '/assets/Logo.png';
 
 const ServicesLandscaping = () => {
   return (

@@ -1,4 +1,4 @@
-import img5 from '@assets/aqua.png'; // Import the Image component from Next.js
+import img5 from '/assets/aqua.png'; // Import the Image component from Next.js
 
 const AboutSection = () => {
   return (

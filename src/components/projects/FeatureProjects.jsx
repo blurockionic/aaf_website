@@ -1,10 +1,10 @@
-import img_1 from "@assets/agri_type_image_1.png";
-import img_2 from "@assets/agri_type_image_2.png";
-import img_3 from "@assets/agri_type_image_3.png";
-import img_4 from "@assets/agri_type_image_4.png";
-import img_5 from "@assets/agri_type_image_5.png";
-import img_6 from "@assets/agri_type_image_6.png";
-import img_7 from "@assets/ourservices.jpg";
+import img_1 from "/assets/agri_type_image_1.png";
+import img_2 from "/assets/agri_type_image_2.png";
+import img_3 from "/assets/agri_type_image_3.png";
+import img_4 from "/assets/agri_type_image_4.png";
+import img_5 from "/assets/agri_type_image_5.png";
+import img_6 from "/assets/agri_type_image_6.png";
+import img_7 from "/assets/ourservices.jpg";
 
 function FeatureProjects() {
   return (

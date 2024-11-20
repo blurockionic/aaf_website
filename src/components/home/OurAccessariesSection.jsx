@@ -1,12 +1,12 @@
 
-import img1 from "@assets/pr1.png";
-import img2 from "@assets/pr2.png";
-import img3 from "@assets/pr3.png";
-import img4 from "@assets/pr4.png";
-import img5 from "@assets/pr5.png";
-import img6 from "@assets/pr6.png";
-import img7 from "@assets/pr7.png";
-import img8 from "@assets/pr8.png";
+import img1 from "/assets/pr1.png";
+import img2 from "/assets/pr2.png";
+import img3 from "/assets/pr3.png";
+import img4 from "/assets/pr4.png";
+import img5 from "/assets/pr5.png";
+import img6 from "/assets/pr6.png";
+import img7 from "/assets/pr7.png";
+import img8 from "/assets/pr8.png";
 
 
 

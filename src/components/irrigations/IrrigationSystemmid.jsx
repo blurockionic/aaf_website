@@ -1,4 +1,4 @@
-import mid from '@assets/111.jpg';
+import mid from '/assets/111.jpg';
 
 const IrrigationSystemmid = () => {
   return (

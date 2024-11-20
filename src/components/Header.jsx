@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import logo from "../assets/icon 2.png"; // Assuming the image is in `assets/images`
+import logo from "/assets/icon 2.png"; // Assuming the image is in `assets/images`
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

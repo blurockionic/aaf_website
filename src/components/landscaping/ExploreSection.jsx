@@ -1,6 +1,6 @@
-import img1 from "@assets/image_1.svg";
-import img2 from "@assets/image_2.svg";
-import img3 from "@assets/image_3.svg";
+import img1 from "/assets/image_1.svg";
+import img2 from "/assets/image_2.svg";
+import img3 from "/assets/image_3.svg";
 
 const ExploreSection = () => {
   return (

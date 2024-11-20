@@ -1,4 +1,4 @@
-import img1 from "@assets/timelineicon.png";
+import img1 from "/assets/timelineicon.png";
 
 const Milestones = () => {
   return (

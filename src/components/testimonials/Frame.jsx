@@ -1,4 +1,4 @@
-import frame from "@assets/bg_image.png";
+import frame from "/assets/bg_image.png";
 
 const Frame = () => {
   return (
