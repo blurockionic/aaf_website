@@ -1,4 +1,4 @@
-import irrigation2 from '../../assets/images/irrigation/11.jpg';
+import irrigation2 from '../../assets/11.jpg';
 
 // Heading Section Component
 const HeadingSection = () => {

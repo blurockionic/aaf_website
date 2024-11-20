@@ -1,9 +1,9 @@
-import img1 from '../../assets/images/irrigation/img1.png';
-import img3 from '../../assets/images/irrigation/ne11.jpg';
-import img7 from '../../assets/images/irrigation/img7.png';
-import img5 from '../../assets/images/irrigation/img5.png';
-import img6 from '../../assets/images/irrigation/img6.png';
-import img4 from '../../assets/images/irrigation/img4.png';
+import img1 from '../../assets/img1.png';
+import img3 from '../../assets/ne11.jpg';
+import img7 from '../../assets/img7.png';
+import img5 from '../../assets/img5.png';
+import img6 from '../../assets/img6.png';
+import img4 from '../../assets/img4.png';
 
 
 const IrrigationSystems = () => {

@@ -1,4 +1,4 @@
-import img6 from '../../assets/images/polyhouse/Hero/img6.png';
+import img6 from '../../assets/img6.png';
 
 const PolyhouseSolutions = () => {
   return (

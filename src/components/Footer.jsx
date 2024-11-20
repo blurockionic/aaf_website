@@ -1,10 +1,10 @@
 import { useNavigate } from "react-router-dom"; // React Router for navigation
-import logo from "../assets/images/icon 2.png";
-import fb from "../assets/images/Facebook.svg";
-import insta from "../assets/images/Instagram.svg";
-import link from "../assets/images/LinkedIn.svg";
-import x from "../assets/images/X.svg";
-import youtube from "../assets/images/Youtube.svg";
+import logo from "../assets/icon 2.png";
+import fb from "../assets/Facebook.svg";
+import insta from "../assets/Instagram.svg";
+import link from "../assets/LinkedIn.svg";
+import x from "../assets/X.svg";
+import youtube from "../assets/Youtube.svg";
 
 const Footer = () => {
   const navigate = useNavigate(); // Initialize navigate for routing

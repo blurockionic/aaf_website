@@ -1,7 +1,7 @@
 "use client";
-import image_1 from "../../assets/images/ourservices.jpg";
-import image_2 from "../../assets/images/1111.jpg";
-import image_3 from "../../assets/images/image_service_3.png";
+import image_1 from "../../assets/ourservices.jpg";
+import image_2 from "../../assets/1111.jpg";
+import image_3 from "../../assets/image_service_3.png";
 import { Link } from "react-router-dom";
 
 const OurServiceMain = () => {

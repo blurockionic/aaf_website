@@ -1,6 +1,6 @@
-import img2 from "../../assets/images/gallery/gallery_2.png";
-import img3 from "../../assets/images/gallery/gallery_3.png";
-import img4 from "../../assets/images/gallery/gallery_4.png";
+import img2 from "../../assets/gallery_2.png";
+import img3 from "../../assets/gallery_3.png";
+import img4 from "../../assets/gallery_4.png";
 const ProjectGallery = () => {
   return (
     <>

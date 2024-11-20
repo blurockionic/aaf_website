@@ -1,4 +1,4 @@
-import about_image from "../../assets/images/about.jpg";
+import about_image from "../../assets/about.jpg";
 
 const AboutSectionMain = () => {
   return (

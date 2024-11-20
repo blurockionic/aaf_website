@@ -1,4 +1,4 @@
-import img9 from "../../assets/images/landscaping/landscaping_image_9.png";
+import img9 from "../../assets/landscaping_image_9.png";
 
 const UnlockSection = () => {
   return (
