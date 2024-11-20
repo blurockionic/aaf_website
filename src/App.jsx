@@ -15,7 +15,7 @@ import Contacts from "./pages/Contacts";
 
 function App() {
   return (
-    <Router basename={import.meta.env.BASE_URL}>
+    <Router>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

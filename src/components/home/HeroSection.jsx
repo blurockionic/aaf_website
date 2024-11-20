@@ -1,5 +1,5 @@
 import bghero from "/assets/polyhousemain.jpg";
-import center from "/assets/showcase-4.jpg";
+import center from "/assets/11.png";
 import right from "/assets/showcase-5.jpg";
 
 const HeroSection = () => {
