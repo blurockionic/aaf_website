@@ -1,6 +1,6 @@
 import bghero from "/assets/polyhousemain.jpg";
-import center from "/assets/11.png";
-import right from "/assets/showcase-5.jpg";
+// import center from "/assets/11.png";
+// import right from "/assets/showcase-5.jpg";
 
 const HeroSection = () => {
   return (
@@ -46,7 +46,7 @@ const HeroSection = () => {
             className="object-cover"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
           />
-          <img
+          {/* <img
             className="hidden md:flex bottom-0 -left-10 md:-left-20 w-24 md:w-40 absolute h-24 md:h-40 shadow-md rounded-lg border-5 border-[#b7b7b7]/70"
             src={center}
             alt="center_image"
@@ -55,7 +55,7 @@ const HeroSection = () => {
             className="hidden md:flex top-5 md:top-10 -right-0 w-24 md:w-40 absolute h-32 md:h-52 shadow-md rounded-lg border-5 border-[#b7b7b7]/70"
             src={right}
             alt="right_image"
-          />
+          /> */}
         </div>
       </div>
     </>
