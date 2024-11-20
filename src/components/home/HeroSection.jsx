@@ -1,6 +1,6 @@
-import bghero from "../../assets/polyhousemain.jpg";
-import center from "../../assets/showcase-4.jpg";
-import right from "../../assets/showcase-5.jpg";
+import bghero from "@assets/polyhousemain.jpg";
+import center from "@assets/showcase-4.jpg";
+import right from "@assets/showcase-5.jpg";
 
 const HeroSection = () => {
   return (

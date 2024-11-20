@@ -1,6 +1,6 @@
-import image_1 from "../../assets/service_type_1.png";
-import image_2 from "../../assets/service_type_2.png";
-import image_3 from "../../assets/service_type_3.png";
+import image_1 from "@assets/service_type_1.png";
+import image_2 from "@assets/service_type_2.png";
+import image_3 from "@assets/service_type_3.png";
 import { Link } from "react-router-dom";
 
 const CoreAgriSerives = () => {

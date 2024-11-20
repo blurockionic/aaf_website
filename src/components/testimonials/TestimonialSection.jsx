@@ -1,7 +1,7 @@
-import img3 from "../../assets/Vansh.png";
+import img3 from "@assets/Vansh.png";
 
-import icon1 from "../../assets/icon1.png";
-import icon2 from "../../assets/icon2.png";
+import icon1 from "@assets/icon1.png";
+import icon2 from "@assets/icon2.png";
 
 const TestimonialsSection = () => {
   return (

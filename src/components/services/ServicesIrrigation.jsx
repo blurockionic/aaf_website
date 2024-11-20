@@ -1,5 +1,5 @@
-import Irrigation from "../../assets/11.jpg";
-import Logo from '../../assets/Logo.png';
+import Irrigation from "@assets/11.jpg";
+import Logo from '@assets/Logo.png';
 
 const ServicesIrrigation = () => {
   return (

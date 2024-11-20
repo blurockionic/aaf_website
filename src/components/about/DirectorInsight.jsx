@@ -1,5 +1,5 @@
 import "../../App.css";
-import img3 from "../../assets/director.png"; // Import the Image component from Next.js
+import img3 from "@assets/director.png"; // Import the Image component from Next.js
 
 const DirectorInsight = () => {
   return (

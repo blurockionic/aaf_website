@@ -1,5 +1,5 @@
-import Heroimg from '../../assets/Hero.png';
-import Logo from '../../assets/Logo.png';
+import Heroimg from '@assets/Hero.png';
+import Logo from '@assets/Logo.png';
 
 const ServicesHero = () => {
   return (

@@ -1,4 +1,4 @@
-import img8 from "../../assets/landscaping_image_8.png";
+import img8 from "@assets/landscaping_image_8.png";
 
 const InnovativeSection = () => {
   return (

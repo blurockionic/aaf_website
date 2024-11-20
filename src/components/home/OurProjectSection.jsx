@@ -1,9 +1,9 @@
-import img_1 from "../../assets/image_project_1.png";
-import img_2 from "../../assets/image_project_2.png";
-import img_3 from "../../assets/image_project_3.png";
-import img_4 from "../../assets/image_project_4.png";
-import img_5 from "../../assets/image_project_5.png";
-import img_6 from "../../assets/image_project_6.png";
+import img_1 from "@assets/image_project_1.png";
+import img_2 from "@assets/image_project_2.png";
+import img_3 from "@assets/image_project_3.png";
+import img_4 from "@assets/image_project_4.png";
+import img_5 from "@assets/image_project_5.png";
+import img_6 from "@assets/image_project_6.png";
 
 const OurProjectSection = () => {
   return (

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Explore2 from "../../assets/11.jpg";
-import Explore1 from "../../assets/Explore2.png";
-import Explore3 from "../../assets/Explore3.png";
+import Explore2 from "@assets/11.jpg";
+import Explore1 from "@assets/Explore2.png";
+import Explore3 from "@assets/Explore3.png";
 
 const ServicesExplore = () => {
   return (

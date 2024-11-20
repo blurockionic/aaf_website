@@ -1,4 +1,4 @@
-import img6 from '../../assets/img7.png';
+import img6 from '@assets/img7.png';
 
 const PolyhouseUnlock = () => {
   return (
