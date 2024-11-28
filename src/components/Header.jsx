@@ -66,7 +66,7 @@ const Header = () => {
           <li
             key={name}
             onClick={() => handleLinkClick(path)}
-            className={`cursor-pointer ${
+            className={`MerriweatherSans cursor-pointer ${
               location.pathname === path ? "border-b-2 border-white" : ""
             } hover:border-b-2 hover:border-white`}
           >
@@ -85,7 +85,7 @@ const Header = () => {
           <li
             key={name}
             onClick={() => handleLinkClick(path)}
-            className={`cursor-pointer ${
+            className={`MerriweatherSans cursor-pointer ${
               location.pathname === path ? "border-b-2 border-white" : ""
             } hover:border-b-2 hover:border-white`}
           >

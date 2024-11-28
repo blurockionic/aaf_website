@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="mt-16 md:mt-0 flex flex-col md:flex-row items-center justify-between">
         {/* Text Content */}
         <div className="flex flex-col gap-5 px-6 md:px-12 w-full md:w-1/2">
-          <h1 className="text-[#4CAF50]  text-[32px] md:text-[56px] font-merriweather-sans font-bold leading-tight md:leading-[67.2px] break-words">
+          <h1 className="text-[#4CAF50]  text-[32px] md:text-[56px] MerriweatherSans font-bold leading-tight md:leading-[67.2px] break-words">
             AQUA AGRO FARMTECH
           </h1>
 
@@ -39,7 +39,7 @@ const HeroSection = () => {
         </div>
 
         {/* Image Content */}
-        <div className="w-full md:w-1/2 relative h-[300px] md:h-[600px] mt-8 md:mt-0">
+        <div className="w-full md:w-1/2 relative h-[300px] md:h-screen mt-8 md:mt-0">
           <img
             src={bghero}
             alt="background_hero_image"

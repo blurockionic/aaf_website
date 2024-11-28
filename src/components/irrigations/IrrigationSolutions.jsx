@@ -1,207 +1,52 @@
-import irrigation2 from '/assets/11.jpg';
-
-// Heading Section Component
-const HeadingSection = () => {
-  return (
-    <div
-      style={{
-        alignSelf: "stretch",
-        height: "249px",
-        flexDirection: "column",
-        justifyContent: "flex-start",
-        alignItems: "flex-start",
-        gap: "24px",
-        display: "flex",
-      }}
-    >
-      <div
-        style={{
-          alignSelf: "stretch",
-          color: "black",
-          fontSize: "40px",
-          fontFamily: "Merriweather Sans",
-          fontWeight: 700,
-          lineHeight: "48px",
-          wordWrap: "break-word",
-        }}
-      >
-        Innovative Irrigation Solutions for Sustainable Farming
-      </div>
-      <div
-        style={{
-          alignSelf: "stretch",
-          color: "black",
-          fontSize: "18px",
-          fontFamily: "Roboto",
-          fontWeight: 400,
-          lineHeight: "27px",
-          wordWrap: "break-word",
-        }}
-      >
-        At Aqua Agro, we are committed to transforming agriculture through advanced irrigation systems. Our mission is to deliver state-of-the-art solutions that boost productivity while conserving resources.
-      </div>
-    </div>
-  );
-};
-
-// Vision and Mission Section Component
-const VisionMissionSection = () => {
-  return (
-    <div
-      style={{
-        alignSelf: "stretch",
-        height: "132px",
-        flexDirection: "column",
-        justifyContent: "flex-start",
-        alignItems: "flex-start",
-        gap: "16px",
-        display: "flex",
-      }}
-    >
-      <div
-        style={{
-          alignSelf: "stretch",
-          paddingTop: "8px",
-          paddingBottom: "8px",
-          justifyContent: "flex-start",
-          alignItems: "flex-start",
-          gap: "24px",
-          display: "inline-flex",
-        }}
-      >
-        <div
-          style={{
-            flex: "1 1 0",
-            flexDirection: "column",
-            justifyContent: "flex-start",
-            alignItems: "flex-start",
-            gap: "16px",
-            display: "inline-flex",
-          }}
-        >
-          <div
-            style={{
-              alignSelf: "stretch",
-              color: "black",
-              fontSize: "20px",
-              fontFamily: "Roboto",
-              fontWeight: 700,
-              lineHeight: "28px",
-              wordWrap: "break-word",
-            }}
-          >
-            Our Vision
-          </div>
-          <div
-            style={{
-              alignSelf: "stretch",
-              color: "black",
-              fontSize: "16px",
-              fontFamily: "Merriweather Sans",
-              fontWeight: 400,
-              lineHeight: "24px",
-              wordWrap: "break-word",
-            }}
-          >
-            To be a leader in innovative water management and sustainable farming practices.
-          </div>
-        </div>
-
-        <div
-          style={{
-            flex: "1 1 0",
-            flexDirection: "column",
-            justifyContent: "flex-start",
-            alignItems: "flex-start",
-            gap: "16px",
-            display: "inline-flex",
-          }}
-        >
-          <div
-            style={{
-              alignSelf: "stretch",
-              color: "black",
-              fontSize: "20px",
-              fontFamily: "Roboto",
-              fontWeight: 700,
-              lineHeight: "28px",
-              wordWrap: "break-word",
-            }}
-          >
-            Our Mission
-          </div>
-          <div
-            style={{
-              alignSelf: "stretch",
-              color: "black",
-              fontSize: "16px",
-              fontFamily: "Merriweather Sans",
-              fontWeight: 400,
-              lineHeight: "24px",
-              wordWrap: "break-word",
-            }}
-          >
-            Empowering farmers with efficient irrigation technology for improved yields and responsible water use.
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-// Image Section Component
-const ImageSection = () => {
-  return (
-    <img
-      style={{ width: "640px", height: "640px", borderRadius: "16px" }}
-      src={irrigation2}
-      alt="Irrigation Solutions"
-    />
-  );
-};
-
-// Main Irrigation Solutions Component
+import img6 from "/assets/img6.png";
 const IrrigationSolutions = () => {
   return (
-    <div
-      style={{
-        width: "100%",
-        height: "100%",
-        paddingLeft: "64px",
-        paddingRight: "64px",
-        paddingTop: "112px",
-        paddingBottom: "112px",
-        background: "#F5F5DC",
-        flexDirection: "column",
-        justifyContent: "flex-start",
-        alignItems: "flex-start",
-        gap: "80px",
-        display: "inline-flex",
-      }}
-    >
-      <div
-        style={{
-          alignSelf: "stretch",
-          justifyContent: "flex-start",
-          alignItems: "center",
-          gap: "80px",
-          display: "inline-flex",
-        }}
-      >
-        <div
-          style={{
-            flex: "1 1 0",
-            flexDirection: "column",
-            justifyContent: "flex-start",
-            alignItems: "flex-start",
-            gap: "32px",
-            display: "inline-flex",
-          }}
-        >
-          <HeadingSection />
-          <VisionMissionSection />
+    <div className="w-full h-auto px-4 md:px-16 py-10 md:py-10 bg-[#f5f5dc] flex flex-col justify-start items-center gap-20">
+      <div className="flex flex-col sm:flex-row justify-between items-start gap-12 w-full">
+        {/* Wrapper for both text and image to take equal space */}
+        <div className="flex flex-col sm:flex-row-reverse flex-1 gap-4">
+          {/* Image Section */}
+          <img
+            className="w-full h-auto rounded-2xl mb-6 sm:mb-0 sm:w-1/2"
+            src={img6}
+            alt="Polyhouse Solutions"
+          />
+
+          {/* Text Section */}
+          <div className="flex-1 flex flex-col mt-6 gap-8">
+            <div className="flex flex-col justify-start items-start gap-4">
+              <h1 className="text-black text-3xl sm:text-4xl font-bold font-['Merriweather Sans'] leading-tight">
+                Innovative Irrigation Solutions for Sustainable Farming
+              </h1>
+              <p className="text-black text-lg font-normal font-['Roboto'] leading-relaxed">
+                At Aqua Agro, we are committed to transforming agriculture
+                through advanced irrigation systems. Our mission is to deliver
+                state-of-the-art solutions that boost productivity while
+                conserving resources.
+              </p>
+            </div>
+            <div className="flex flex-col sm:flex-row justify-start gap-4  mr-7">
+              <div className="flex-1 flex flex-col gap-2">
+                <h2 className="text-black text-xl font-bold font-['Roboto'] leading-7">
+                  Our Vision
+                </h2>
+                <p className="text-black text-base font-medium font-['Merriweather Sans'] leading-normal">
+                  To be a leader in innovative water management and sustainable
+                  farming practices.
+                </p>
+              </div>
+              <div className="flex-1 flex flex-col gap-2">
+                <h2 className="text-black text-xl font-bold font-['Roboto'] leading-7">
+                  Our Mission
+                </h2>
+                <p className="text-black text-base font-medium font-['Merriweather Sans'] leading-normal">
+                  Empowering farmers with efficient irrigation technology for
+                  improved yields and responsible water use.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <ImageSection />
       </div>
     </div>
   );

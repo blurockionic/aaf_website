@@ -8,69 +8,106 @@ import img7 from "/assets/landscaping_image_7.png";
 
 const LandscapingService = () => {
   return (
-    <div className="w-full h-full p-8 bg-white flex flex-col justify-center items-center gap-8">
-      {/* Title and Description Section */}
-      <div className="flex flex-col md:flex-row justify-center items-center gap-8 w-full">
-        <div className="flex flex-col justify-start items-start gap-8">
-          <div className="flex flex-col gap-6">
-            <h1 className="text-green-500 text-4xl md:text-5xl font-bold leading-tight">
-              Landscaping Services
-            </h1>
-            <h1 className="text-black text-4xl md:text-5xl font-bold leading-tight">
-              that Enhance Your Outdoor Spaces
-            </h1>
-            <p className="text-black text-base md:text-lg font-normal leading-7">
-              Experience the transformation of your landscape with our expert
-              landscaping solutions.
-            </p>
-          </div>
-        </div>
-        {/* Right-Side Image */}
-        <div className="flex-shrink-0">
+    <div className="w-full min-h-screen px-4 md:px-16 py-10 md:py-10 bg-white flex flex-col gap-8">
+      {/* Header Section */}
+      <div className="grid grid-cols-1 sm:grid-cols-10 gap-8">
+        {/* Image Section for Mobile */}
+        <div className="sm:col-span-4 mb-6 w-[90vw] sm:w-[auto] sm:mb-0 relative order-1 sm:order-2">
           <img
+            className="w-full sm:h-full rounded-[32px] object-fill"
             src={img1}
-            alt="Landscape Image"
-            className="w-[489px] h-[206px] rounded-2xl object-cover"
+            alt="Polyhouse Solutions"
           />
         </div>
+
+        {/* Text Section */}
+        <div className="col-span-6 flex flex-col gap-6 order-2 sm:order-1">
+          <h1 className="text-black text-4xl sm:text-5xl font-bold font-['Merriweather Sans'] leading-tight">
+            <span className="text-green-500 font-['Merriweather Sans']">
+              Landscaping Services{" "}
+            </span>{" "}
+            that
+            <br />
+            Enhance Your Outdoor Spaces
+          </h1>
+          <p className="text-black text-base sm:text-lg font-normal font-['Roboto'] leading-relaxed">
+            Experience the transformation of your landscape with our expert
+            landscaping solutions.
+          </p>
+        </div>
       </div>
 
-      {/* Three-Image Row */}
-      <div className="flex flex-wrap justify-center items-center gap-8 w-full">
-        <img 
+      {/* Main img Grid for Desktop Only */}
+      <div className="hidden sm:grid grid-cols-1 sm:grid-cols-10 gap-8">
+        <img
+          className="col-span-2 w-full h-[540px] rounded-[40px] object-cover"
           src={img2}
-          alt="Image 1"
-          className="w-[240px] h-[540px] rounded-2xl object-cover hidden md:block"
+          alt="Polyhouse Solution img 1"
         />
         <img
+          className="col-span-5 w-full h-[540px] rounded-[32px] object-cover"
           src={img3}
-          alt="Image 2"
-          className="w-[802px] h-[540px] rounded-2xl object-cover"
+          alt="Polyhouse Solution img 2"
         />
         <img
+          className="col-span-3 w-full h-[540px] rounded-[32px] object-cover"
           src={img4}
-          alt="Image 3"
-          className="w-[240px] h-[540px] rounded-2xl object-cover hidden md:block"
+          alt="Polyhouse Solution img 3"
         />
       </div>
 
-      {/* Bottom Image Grid */}
-      <div className="flex flex-wrap justify-center items-center gap-8 w-full">
+      {/* Mobile img Grid */}
+      <div className="grid grid-cols-2 gap-4 sm:hidden">
         <img
-          src={img5}
-          alt="Image 4"
-          className="w-[575px] h-[206px] rounded-2xl object-cover "
+          className="w-full h-[270px] rounded-[40px] object-cover"
+          src={img2}
+          alt="Polyhouse Solution img 1"
         />
         <img
+          className="w-full h-[270px] rounded-[40px] object-cover"
+          src={img4}
+          alt="Polyhouse Solution img 2"
+        />
+        <img
+          className="col-span-2 w-full h-[540px] rounded-[32px] object-cover"
+          src={img3}
+          alt="Polyhouse Solution img 3"
+        />
+        <img
+          className="col-span-1 w-full h-[270px] rounded-[32px] object-cover"
           src={img6}
-          alt="Image 5"
-          className="w-[358px] h-[206px] rounded-2xl object-cover hidden md:block"
+          alt="Additional Polyhouse img 2"
         />
         <img
+          className="col-span-1 w-full h-[270px] rounded-[32px] object-cover"
           src={img7}
-          alt="Image 6"
-          className="w-[379px] h-[206px] rounded-2xl object-cover hidden md:block"
+          alt="Additional Polyhouse img 3"
         />
+      </div>
+
+      {/* Footer img Grid (Desktop Only) */}
+      <div className="hidden sm:grid grid-cols-1 sm:grid-cols-10 gap-8">
+        <div className="relative col-span-5">
+          <img
+            className="w-full h-[270px] rounded-[32px] object-cover"
+            src={img5}
+            alt="Additional Polyhouse img 1"
+          />
+        </div>
+        <div className="relative col-span-3">
+          <img
+            className="w-full h-[270px] rounded-[32px] object-cover"
+            src={img6}
+            alt="Additional Polyhouse img 2"
+          />
+        </div>
+        <div className="relative col-span-2">
+          <img
+            className="w-full h-[270px] rounded-tl-2xl rounded-tr-2xl object-cover"
+            src={img7}
+            alt="Additional Polyhouse img 3"
+          />
+        </div>
       </div>
     </div>
   );

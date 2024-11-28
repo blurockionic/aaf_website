@@ -37,7 +37,7 @@ const FrequentlyAskQuestion = () => {
   };
 
   return (
-    <div className="w-full px-20 mx-auto p-8 bg-white flex flex-col gap-20">
+    <div className="w-full px-4 sm:px-6 md:px-16 py-10 bg-white flex flex-col gap-20">
       <div className="flex flex-col items-start">
         <h1 className="text-4xl font-bold text-black mb-4">FAQs</h1>
         <p className="text-lg text-black">

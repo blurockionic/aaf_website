@@ -1,113 +1,51 @@
-import mid from '/assets/111.jpg';
+import mid from "/assets/111.jpg";
+import check from "/assets/icon/check-badge.png";
 
 const IrrigationSystemmid = () => {
   return (
-    <div style={{
-      width: "100%",
-      height: "100%",
-      padding: "112px 64px",
-      background: "white",
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "flex-start",
-      alignItems: "flex-start",
-      gap: "80px"
-    }}>
-      <div style={{
-        display: "flex",
-        justifyContent: "flex-start",
-        alignItems: "center",
-        gap: "80px",
-        alignSelf: "stretch"
-      }}>
-        <div style={{
-          flex: 1,
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "flex-start",
-          alignItems: "flex-start",
-          gap: "32px"
-        }}>
-          <div style={{
-            height: "249px",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "flex-start",
-            alignItems: "flex-start",
-            gap: "24px",
-            alignSelf: "stretch"
-          }}>
-            <div style={{
-              color: "black",
-              fontSize: "40px",
-              fontFamily: "Merriweather Sans",
-              fontWeight: 700,
-              lineHeight: "48px",
-              wordWrap: "break-word"
-            }}>
-              Unlock the Potential of Your Crops with Our Advanced Irrigation System
+    <div className="mx-auto px-4 sm:px-6 md:px-16 py-10 bg-[#f5f5dc] flex flex-col gap-12">
+      <div className="flex flex-col-reverse md:flex-row justify-between items-start gap-12 ">
+        <div className="flex flex-col my-auto justify-center items-center gap-8 md:w-1/2">
+          <h2 className="text-black text-2xl md:text-4xl font-bold leading-tight">
+            Unlock the Potential of Your Crops with Our Advanced Irrigation
+            System
+          </h2>
+          <p className="text-black text-lg md:text-xl leading-relaxed font-['roboto']">
+            Our innovative irrigation systems ensure precise water delivery,
+            promoting healthier crops and efficient resource use. Experience the
+            benefits of sustainable water management tailored to your
+            agricultural needs.
+          </p>
+          <div className="flex flex-col gap-4">
+            <div className="flex items-center gap-4">
+              <img src={check} className="w-5 h-5  " />
+              <p className="text-black text-lg md:text-xl leading-[27px] font-['roboto']">
+                Maximized crop growth through efficient water distribution.
+              </p>
             </div>
-            <div style={{
-              color: "black",
-              fontSize: "18px",
-              fontFamily: "Roboto",
-              fontWeight: 400,
-              lineHeight: "27px",
-              wordWrap: "break-word"
-            }}>
-              Our innovative irrigation systems ensure precise water delivery, promoting healthier crops and efficient resource use. Experience the benefits of sustainable water management tailored to your farm&apos;s needs.
+            <div className="flex items-center gap-4">
+              <img src={check} className="w-5 h-5  " />
+              <p className="text-black text-lg md:text-xl leading-[27px] font-['roboto']">
+                Protection against water wastage and drought conditions.
+              </p>
             </div>
-          </div>
-
-          <div style={{
-            height: "129px",
-            padding: "8px 0",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "flex-start",
-            alignItems: "flex-start",
-            gap: "16px",
-            alignSelf: "stretch"
-          }}>
-            {[
-              "Maximized crop growth through efficient water distribution.",
-              "Protection against water wastage and drought conditions.",
-              "Sustainable farming practices that enhance environmental health."
-            ].map((text, index) => (
-              <div key={index} style={{
-                display: "flex",
-                alignItems: "center",
-                gap: "16px",
-                alignSelf: "stretch"
-              }}>
-                <div style={{ width: "16px", height: "16px", position: "relative" }}>
-                  <div style={{
-                    width: "15.38px",
-                    height: "15.33px",
-                    background: "#4CAF50",
-                    position: "absolute",
-                    top: "0.34px",
-                    left: "0.33px"
-                  }}></div>
-                </div>
-                <div style={{
-                  color: "black",
-                  fontSize: "18px",
-                  fontFamily: "Roboto",
-                  fontWeight: 400,
-                  lineHeight: "27px",
-                  wordWrap: "break-word"
-                }}>{text}</div>
-              </div>
-            ))}
+            <div className="flex items-center gap-4">
+              <img src={check} className="w-5 h-5  " />
+              <p className="text-black text-lg md:text-xl leading-[27px] font-['roboto']">
+                Sustainable farming practices that enhance environmental health.
+              </p>
+            </div>
           </div>
         </div>
-
-        <img
-          style={{ width: "616px", height: "640px", borderRadius: "32px" }}
-          src={mid}
-          alt="Irrigation System"
-        />
+        <div className="w-full md:w-1/2 flex justify-center">
+          {" "}
+          {/* Centering the image on medium screens */}
+          <img
+            className="w-full h-auto rounded-2xl"
+            src={mid}
+            alt="Polyhouse example"
+          />
+        </div>
       </div>
     </div>
   );

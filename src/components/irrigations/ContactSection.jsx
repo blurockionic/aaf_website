@@ -1,149 +1,55 @@
+import { Mail, Phone, MapPin } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <div style={{
-      width: "100%",
-      height: "100%",
-      padding: "48px 64px",
-      background: "white",
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "flex-start",
-      alignItems: "center",
-      gap: "40px"
-    }}>
-      <div style={{
-        height: "109px",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "flex-start",
-        alignItems: "center",
-        gap: "16px"
-      }}>
-        <div></div>
-        <div style={{
-          alignSelf: "stretch",
-          height: "109px",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "flex-start",
-          alignItems: "center",
-          gap: "24px"
-        }}>
-          <div style={{
-            alignSelf: "stretch",
-            textAlign: "center",
-            color: "black",
-            fontSize: "48px",
-            fontFamily: "Merriweather Sans",
-            fontWeight: 700,
-            lineHeight: "57.6px",
-            wordWrap: "break-word"
-          }}>
-            Get in Touch
+    <div className="bg-[#F5F5DC] flex flex-col justify-start items-center">
+      <div className="m-20 w-full max-w-7xl">
+        <div className="bg-white p-10 rounded-lg shadow-md">
+          {/* Header Section */}
+          <div className="text-center mb-10">
+            <h2 className="text-black text-5xl font-bold font-['Merriweather Sans'] leading-tight">
+              Contact us
+            </h2>
+            <p className="text-black text-lg font-normal font-['Roboto'] leading-[27px] mt-4">
+              We welcome your inquiries, feel free to write to us.
+            </p>
           </div>
-          <div style={{
-            alignSelf: "stretch",
-            textAlign: "center",
-            color: "black",
-            fontSize: "18px",
-            fontFamily: "Roboto",
-            fontWeight: 400,
-            lineHeight: "27px",
-            wordWrap: "break-word"
-          }}>
-            We welcome your inquiries; feel free to write to us.
-          </div>
-        </div>
-      </div>
 
-      <div style={{
-        alignSelf: "stretch",
-        height: "154px",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "flex-start",
-        alignItems: "flex-start",
-        gap: "64px"
-      }}>
-        <div style={{
-          alignSelf: "stretch",
-          display: "flex",
-          justifyContent: "flex-start",
-          alignItems: "flex-start",
-          gap: "48px"
-        }}>
-          {[
-            {
-              title: "Email",
-              info: "aquaagrofarmtech@gmail.com",
-              backgroundColor: "#FF9800",
-            },
-            {
-              title: "Phone",
-              info: "+919878106932",
-              backgroundColor: "#FF9800",
-            },
-            {
-              title: "Office",
-              info: "Ludhiana, Punjab, 141006",
-              backgroundColor: "#FF9800",
-            }
-          ].map((contact, index) => (
-            <div key={index} style={{
-              flex: "1 1 0",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "flex-start",
-              alignItems: "center",
-              gap: "24px"
-            }}>
-              <div style={{ width: "48px", height: "48px", position: "relative" }}>
-                <div style={{
-                  width: "40px",
-                  height: "32px",
-                  left: "4px",
-                  top: "8px",
-                  position: "absolute",
-                  background: contact.backgroundColor
-                }}></div>
+          {/* Contact Info Section */}
+          <div className="flex flex-col md:flex-row justify-between items-center gap-12">
+            {/* Email Info */}
+            <div className="flex flex-col items-center text-center">
+              <Mail className="text-[#ff9800] w-12 h-12 mb-4" />
+              <div className="text-[#ff9800] text-[32px] font-bold font-['Merriweather Sans']">
+                Email
               </div>
-              <div style={{
-                alignSelf: "stretch",
-                height: "82px",
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "flex-start",
-                alignItems: "center",
-                gap: "16px"
-              }}>
-                <div style={{
-                  alignSelf: "stretch",
-                  textAlign: "center",
-                  color: contact.backgroundColor,
-                  fontSize: "32px",
-                  fontFamily: "Merriweather Sans",
-                  fontWeight: 700,
-                  lineHeight: "41.6px",
-                  wordWrap: "break-word"
-                }}>
-                  {contact.title}
-                </div>
-                <div style={{
-                  alignSelf: "stretch",
-                  textAlign: "center",
-                  color: "black",
-                  fontSize: "16px",
-                  fontFamily: "Roboto",
-                  fontWeight: 700,
-                  lineHeight: "24px",
-                  wordWrap: "break-word"
-                }}>
-                  {contact.info}
-                </div>
-              </div>
+              <p className="text-black text-base font-bold font-['Roboto']">
+                aquaagrofarmtech@gmail.com
+              </p>
             </div>
-          ))}
+
+            {/* Phone Info */}
+            <div className="flex flex-col items-center text-center">
+              <Phone className="text-[#ff9800] w-12 h-12 mb-4" />
+              <div className="text-[#ff9800] text-[32px] font-bold font-['Merriweather Sans']">
+                Phone
+              </div>
+              <p className="text-black text-base font-bold font-['Roboto']">
+                +919878106932
+              </p>
+            </div>
+
+            {/* Office Info */}
+            <div className="flex flex-col items-center text-center">
+              <MapPin className="text-[#ff9800] w-12 h-12 mb-4" />
+              <div className="text-[#ff9800] text-[32px] font-bold font-['Merriweather Sans']">
+                Office
+              </div>
+              <p className="text-black text-base font-bold font-['Roboto']">
+                Ludhiana, Punjab, 141006
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
