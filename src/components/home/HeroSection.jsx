@@ -1,4 +1,4 @@
-import bghero from "/assets/polyhousemain.jpg";
+import bghero from "/assets/polyhouse/img1.jpg";
 // import center from "/assets/11.png";
 // import right from "/assets/showcase-5.jpg";
 
@@ -39,12 +39,12 @@ const HeroSection = () => {
         </div>
 
         {/* Image Content */}
-        <div className="w-full md:w-1/2 relative h-[300px] md:h-screen mt-8 md:mt-0">
+        <div className="w-full md:w-1/2  h-[400px] md:h-screen mt-8 md:mt-0 bg-red-600">
           <img
             src={bghero}
             alt="background_hero_image"
-            className="object-cover"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+            className="w-full h-full object-cover"
+            height={700}
           />
           {/* <img
             className="hidden md:flex bottom-0 -left-10 md:-left-20 w-24 md:w-40 absolute h-24 md:h-40 shadow-md rounded-lg border-5 border-[#b7b7b7]/70"

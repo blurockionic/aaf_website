@@ -1,8 +1,8 @@
-import img_1 from "/assets/image_project_1.png";
+import img_1 from "/assets/polyhouse/img4.jpg";
 import img_2 from "/assets/image_project_2.png";
-import img_3 from "/assets/image_project_3.png";
+import img_3 from "/assets/polyhouse/img5.jpg";
 import img_4 from "/assets/image_project_4.png";
-import img_5 from "/assets/image_project_5.png";
+import img_5 from "/assets/polyhouse/img3.jpg";
 import img_6 from "/assets/image_project_6.png";
 
 const OurProjectSection = () => {
@@ -14,7 +14,8 @@ const OurProjectSection = () => {
           Our Projects
         </h2>
         <p className="text-lg md:text-xl text-[#FF9800] font-normal leading-7 font-roboto">
-          Explore Our Successful Projects and See Nature-Driven Solutions in Action
+          Explore Our Successful Projects and See Nature-Driven Solutions in
+          Action
         </p>
       </div>
 
@@ -29,14 +30,14 @@ const OurProjectSection = () => {
         </div>
         <div className="w-full md:w-1/2 lg:w-[416px]">
           <img
-            className="rounded-[16px] w-full h-auto"
+            className="rounded-[16px] w-full h-auto object-contain"
             src={img_2}
             alt="Project 2"
           />
         </div>
-        <div className="w-full md:w-1/2 lg:w-[416px]">
+        <div className="w-full md:w-1/2 lg:w-[416px] ">
           <img
-            className="rounded-[16px] w-full h-auto"
+            className="rounded-[16px] w-full h-full object-cover"
             src={img_3}
             alt="Project 3"
           />
@@ -50,7 +51,7 @@ const OurProjectSection = () => {
         </div>
         <div className="w-full md:w-1/2 lg:w-[416px]">
           <img
-            className="rounded-[16px] w-full h-auto"
+            className="rounded-[16px] w-full h-full object-cover"
             src={img_5}
             alt="Project 5"
           />

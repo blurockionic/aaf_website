@@ -1,4 +1,4 @@
-import about_image from "/assets/about.jpg";
+import about_image from "/assets/polyhouse/img4.jpg";
 
 const AboutSectionMain = () => {
   return (
@@ -28,7 +28,7 @@ const AboutSectionMain = () => {
         </div>
         {/* Image */}
         <img
-          className="w-full md:w-[600px] h-auto md:h-[600px] rounded-lg"
+          className="w-full md:w-[600px] h-[300px] md:h-[400px] rounded-lg"
           src={about_image}
           alt="About Us Image"
         />

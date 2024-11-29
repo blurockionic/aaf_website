@@ -1,9 +1,13 @@
-import image_1 from "/assets/main.jpg"
+import image_1 from "/assets/polyhouse/img2.jpg";
 
 const HeroSection = () => {
   return (
     <div className="w-full h-full pb-20 bg-white flex flex-col justify-start items-center gap-10">
-      <img className="w-full  h-[400px]" src={image_1} alt="Project Image" />
+      <img
+        className="w-full  h-[400px] object-cover"
+        src={image_1}
+        alt="Project Image"
+      />
 
       <div className="flex flex-col justify-start items-center gap-6">
         <div className="flex flex-col justify-start items-start gap-6">

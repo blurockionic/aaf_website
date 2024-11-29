@@ -1,21 +1,18 @@
-
-import img1 from "/assets/pr1.png";
-import img2 from "/assets/pr2.png";
-import img3 from "/assets/pr3.png";
-import img4 from "/assets/pr4.png";
-import img5 from "/assets/pr5.png";
-import img6 from "/assets/pr6.png";
-import img7 from "/assets/pr7.png";
-import img8 from "/assets/pr8.png";
-
-
+import img1 from "/assets/product/nethouse.webp";
+import img2 from "/assets/product/shade house.webp";
+import img3 from "/assets/product/drip lateral pipe.webp";
+import img4 from "/assets/product/greenhouse covering films.webp";
+import img5 from "/assets/product/greenhouseAccessary.webp";
+import img6 from "/assets/product/mulching films.webp";
+import img7 from "/assets/polyhouse/img1.jpg";
+import img8 from "/assets/polyhouse/img2.jpg";
 
 const OurAccessoriesSection = () => {
   return (
     <div className="w-full h-full p-8 bg-white flex flex-col justify-start items-center gap-12">
       <div className="self-stretch flex justify-center items-center">
         <div className="text-center text-black text-4xl font-bold leading-[57.6px] font-[Merriweather Sans] break-words">
-        Our Products
+          Our Products & Services
         </div>
       </div>
 
@@ -29,15 +26,13 @@ const OurAccessoriesSection = () => {
             alt="BRACKET 'F' TYPE"
           />
           <div className="w-[189px] text-center text-black text-lg font-bold font-roboto leading-[27px] break-words">
-
-          Net House
-
+            Shade Nets
           </div>
-          <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
+          {/* <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
             <div className="text-white text-base font-bold font-roboto leading-[24px]">
               Learn More
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Item 2 */}
@@ -48,15 +43,13 @@ const OurAccessoriesSection = () => {
             alt="BRACKET 'L' TYPE"
           />
           <div className="w-[189px] text-center text-black text-lg font-bold font-roboto leading-[27px] break-words">
-
-          Poly House
-
+            Net House
           </div>
-          <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
+          {/* <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
             <div className="text-white text-base font-bold font-roboto leading-[24px]">
               Learn More
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Item 3 */}
@@ -67,13 +60,13 @@ const OurAccessoriesSection = () => {
             alt="TUBLAR-L-JOINER"
           />
           <div className="w-[189px] text-center text-black text-lg font-bold font-roboto leading-[27px] break-words">
-          Irrigation System
+            Drip Lateral Pipe
           </div>
-          <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
+          {/* <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
             <div className="text-white text-base font-bold font-roboto leading-[24px]">
               Learn More
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Item 4 */}
@@ -84,13 +77,13 @@ const OurAccessoriesSection = () => {
             alt="TUBLAR-T-JOINER"
           />
           <div className="w-[189px] text-center text-black text-lg font-bold font-roboto leading-[27px] break-words">
-          Landscaping
+            Poly Sheet For Greenhouse
           </div>
-          <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
+          {/* <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
             <div className="text-white text-base font-bold font-roboto leading-[24px]">
               Learn More
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Item 5 */}
@@ -101,13 +94,13 @@ const OurAccessoriesSection = () => {
             alt="GUTTER BRACKET"
           />
           <div className="w-[189px] text-center text-black text-lg font-bold font-roboto leading-[27px] break-words">
-          Green House
+            Greenhouse Accessories
           </div>
-          <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
+          {/* <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
             <div className="text-white text-base font-bold font-roboto leading-[24px]">
               Learn More
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Item 6 */}
@@ -118,13 +111,13 @@ const OurAccessoriesSection = () => {
             alt="GUTTER PLATE"
           />
           <div className="w-[189px] text-center text-black text-lg font-bold font-roboto leading-[27px] break-words">
-          Terrance garden
+            Mulching Film
           </div>
-          <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
+          {/* <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
             <div className="text-white text-base font-bold font-roboto leading-[24px]">
               Learn More
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Item 7 */}
@@ -135,13 +128,13 @@ const OurAccessoriesSection = () => {
             alt="GUTTER PLATE"
           />
           <div className="w-[189px] text-center text-black text-lg font-bold font-roboto leading-[27px] break-words">
-          Garden Sprinkle
+            Polyhouse Construction services
           </div>
-          <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
+          {/* <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
             <div className="text-white text-base font-bold font-roboto leading-[24px]">
               Learn More
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Item 8 */}
@@ -152,13 +145,13 @@ const OurAccessoriesSection = () => {
             alt="GUTTER PLATE"
           />
           <div className="w-[189px] text-center text-black text-lg font-bold font-roboto leading-[27px] break-words">
-            Home Planting
+            Agriculture Polyhouse
           </div>
-          <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
+          {/* <div className="px-6 py-3 bg-[#B5651D] rounded-[8px] border border-[#B5651D] flex justify-center items-center">
             <div className="text-white text-base font-bold font-roboto leading-[24px]">
               Learn More
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

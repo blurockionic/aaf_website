@@ -12,11 +12,15 @@ import Project from "./pages/Project";
 import Services from "./pages/Services";
 import Testimonial from "./pages/Testimonial";
 import Contacts from "./pages/Contacts";
+import DownloadBrochure from "./utils/DownloadBrochure";
+import ContactIcons from "./utils/ContactIcons";
 
 function App() {
   return (
     <Router>
       <Header />
+      <DownloadBrochure />
+      <ContactIcons />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/pages/about" element={<About />} />
