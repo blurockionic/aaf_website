@@ -10,4 +10,6 @@ export default defineConfig({
       "/assets": path.resolve(__dirname, "src/assets"),
     },
   },
+  // Add the base option
+  base: "/",
 });
